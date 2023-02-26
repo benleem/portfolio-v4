@@ -1,0 +1,60 @@
+{
+    "worksArray":[
+        {
+            "id": "love-together",
+			"type": "job",
+			"title": "Love Together",
+			"description": "Love Together is a relationship coaching app. Answer survey questions, match with a partner, and discuss!",
+			"tags": ["TypeScript", "NextJs", "Tailwind", "React Query", "React Context"],
+			"image": "https://drive.google.com/uc?export=view&id=1otFz4l0VSN308HZIniuCV8R3N_fNGfpe",
+			"redirect": "/work/love-together",
+			"live":"https://www.love-together.com/"
+
+		},
+		{
+            "id": "chirp",
+			"type": "project",
+			"title": "Chirp",
+			"description": "Chirp is a social media platform. Keep up with people from around the globe, or just post funny memes.",
+			"tags": ["JavaScript","NextJs","CSS Modules", "React Context" ],
+			"image": "https://drive.google.com/uc?export=view&id=1GIsM5nsSTNnraqQ1FkZ9DSCx77PsZ0Cz",
+			"redirect": "/work/chirp",
+			"live":"https://chirp-social.vercel.app/",
+			"code":"https://github.com/benleem/chirp"
+		},
+		{
+            "id": "goggle-earth",
+			"type": "project",
+			"title": "Goggle Earth",
+			"description": "Goggle Earth is an application that can be used to satisfy your curiosity about our great blue planet! Place a pin, and info related to that place will show up in the info tab.",
+			"image": "https://drive.google.com/uc?export=view&id=1_E4UYNG2ODp7Ptd4mxOfc7nAJU60FoyO",
+			"tags": ["JavaScript","React", "CSS","ThreeJs"],
+			"redirect": "/work/goggle-earth",
+			"live":"https://goggle-earth.netlify.app/",
+			"code":"https://github.com/benleem/threejs-test"
+		},
+		{
+            "id": "crypto-snapshot",
+			"type": "project",
+			"title": "Crypto Snapshot",
+			"description": "Crypto Snapshot is an application where you can keep up with your favorite cryptocurrencies.",
+			"image": "https://drive.google.com/uc?export=view&id=1co7dEyfzamuk7KBOikefWl3AviSYSFW4",
+			"tags": ["HTML", "CSS", "JavaScript"],
+			"redirect": "/work/crypto-snapshot",
+			"live":"https://cryptosnapshot.netlify.app/",
+			"code":"https://github.com/benleem/crypto_snapshot"
+		},
+		{
+            "id": "landing-page",
+			"type": "project",
+			"title": "Landing Page",
+			"description": "A landing page I received from a spotify newsletter campaign remade in HTML, CSS, and JavaScript",
+			"image": "https://drive.google.com/uc?export=view&id=1D4lWGPiZz3Ljz1bd91Ec8Daan2V8ratp",
+			"tags": ["HTML", "CSS", "JavaScript"],
+			"redirect": "/work/landing-page",
+			"live":"https://htmlpreview.github.io/?https://github.com/benleem/landingpage/blob/main/index.html",
+			"code":"https://github.com/benleem/landingpage"
+		}
+    ]
+        
+    }
