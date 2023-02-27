@@ -31,7 +31,7 @@ function Home() {
 				className="my-8 flex gap-4 items-center [&>p]:hover:underline hover:no-underline"
 			>
 				<p className="underline-offset-2 decoration-emerald-400">
-					See More About Me
+					See more about me
 				</p>
 				<span className="animate-horizontal-bounce text-emerald-400">
 					{">"}

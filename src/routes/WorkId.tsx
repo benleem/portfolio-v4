@@ -1,5 +1,9 @@
+import { useLocation } from "react-router-dom";
+
 const WorkId = () => {
-	return <div className="animate-opacity-fade">WorkId</div>;
+	const location = useLocation();
+
+	return <div className="animate-opacity-fade">{location.pathname}</div>;
 };
 
 export default WorkId;
