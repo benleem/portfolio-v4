@@ -5,7 +5,7 @@ import TitleText from "../components/TitleText";
 
 const About = () => {
 	return (
-		<section className="py-4 h-full max-w-4xl mx-auto grid place-content-center animate-opacity-fade">
+		<section className="max-w-4xl mx-auto h-full grid place-content-center animate-opacity-fade">
 			<TitleText>About Me</TitleText>
 			<p className="py-8 text-gray-300">
 				I am a front-end developer with a strong passion for all things
@@ -39,7 +39,7 @@ const About = () => {
 					</p>
 				</div>
 			</div>
-			<div className="flex pb-8">
+			<div className="flex">
 				<div className="relative pr-2 h-full after:ml-[0.33rem] after:absolute after:block after:h-full after:w-[1px] after:bg-bone after:bg-opacity-20">
 					<div className="p-1 border-2 border-bone rounded-full bg-[#1a191d]"></div>
 				</div>
@@ -69,6 +69,18 @@ const About = () => {
 					</p>
 				</div>
 			</div>
+			<Anchor
+				type="internal"
+				link="/work"
+				className="my-8 flex gap-4 items-center [&>p]:hover:underline hover:no-underline"
+			>
+				<p className="underline-offset-2 decoration-emerald-400">
+					Move on to work
+				</p>
+				<span className="animate-horizontal-bounce text-emerald-400">
+					{">"}
+				</span>
+			</Anchor>
 			<SocialLinks />
 		</section>
 	);

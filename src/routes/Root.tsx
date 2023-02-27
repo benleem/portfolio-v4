@@ -18,13 +18,13 @@ const Root = () => {
 	}
 
 	return (
-		<div className="h-full flex flex-col">
+		<>
 			<Header />
-			<main className="p-4 flex-grow">
+			<main className="py-8 px-4 flex-grow">
 				<Outlet />
 			</main>
 			{/* <Footer /> */}
-		</div>
+		</>
 	);
 };
 

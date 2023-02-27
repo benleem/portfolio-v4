@@ -1,18 +1,22 @@
+import Anchor from "./Anchor";
+
 type SocialLinksProps = {};
 
 const SocialLinks = ({}: SocialLinksProps) => {
 	return (
 		<ul className="flex gap-4 text-sm">
-			<a href="https://github.com/benleem" target="_blank">
+			<Anchor type="external" link="https://github.com/benleem">
 				🐙 Github
-			</a>
-			<a
-				href="https://www.linkedin.com/in/benjamin-marshall-609906196/"
-				target="_blank"
+			</Anchor>
+			<Anchor
+				type="external"
+				link="https://www.linkedin.com/in/benjamin-marshall-609906196/"
 			>
 				🔗 LinkedIn
-			</a>
-			<a href="">✉️ Email</a>
+			</Anchor>
+			<Anchor type="external" link="">
+				✉️ Email
+			</Anchor>
 		</ul>
 	);
 };

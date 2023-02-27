@@ -5,8 +5,8 @@ function Header() {
 	const navLinks = ["about", "work", "contact"];
 
 	return (
-		<header className="sticky top-0 left-0 px-4 w-full bg-[#1a191d] z-50">
-			<nav className="py-4 flex justify-between items-center border-b-2 border-bone animate-opacity-fade">
+		<header className="sticky top-0 left-0 px-4 w-full bg-[#1a191d] bg-opacity-60 backdrop-blur-md z-50">
+			<nav className="py-4 mx-auto max-w-[1200px] w-full flex justify-between items-center border-b-2 border-bone animate-opacity-fade">
 				<div className="flex items-center font-oswald header-slide-start animate-header-slide">
 					<Link
 						className={`text-xl ${

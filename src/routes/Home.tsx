@@ -6,7 +6,7 @@ import TitleText from "../components/TitleText";
 
 function Home() {
 	return (
-		<section className="py-4 h-full max-w-4xl mx-auto grid place-content-center animate-opacity-fade">
+		<section className="max-w-4xl mx-auto h-full grid place-content-center animate-opacity-fade">
 			<TitleText className="pb-1">
 				Hi! 👋 <br /> I'm Ben Marshall
 			</TitleText>
@@ -37,17 +37,6 @@ function Home() {
 					{">"}
 				</span>
 			</Anchor>
-			{/* <Link
-				className="my-8 flex gap-4 items-center [&>p]:hover:underline"
-				to="/about"
-			>
-				<p className="underline-offset-2 decoration-emerald-400 text-gray-300">
-					See More About Me
-				</p>
-				<span className="animate-horizontal-bounce text-emerald-400">
-					{">"}
-				</span>
-			</Link> */}
 			<SocialLinks />
 		</section>
 	);
