@@ -20,7 +20,7 @@ const About = () => {
 				my knowledge and push my boundaries.
 			</p>
 			<div className="flex pt-8">
-				<div className="relative pr-2 h-full after:ml-[0.33rem] after:absolute after:block after:h-full after:w-[1px] after:bg-bone after:bg-opacity-20">
+				<div className="relative pr-2 h-full after:ml-[0.33rem] after:absolute after:block after:h-full after:w-[1px] after:bg-bone after:bg-opacity-10">
 					<div className="p-1 border-2 border-bone rounded-full bg-[#1a191d]"></div>
 				</div>
 				<div className="pb-8">
@@ -40,7 +40,7 @@ const About = () => {
 				</div>
 			</div>
 			<div className="flex">
-				<div className="relative pr-2 h-full after:ml-[0.33rem] after:absolute after:block after:h-full after:w-[1px] after:bg-bone after:bg-opacity-20">
+				<div className="relative pr-2 h-full after:ml-[0.33rem] after:absolute after:block after:h-full after:w-[1px] after:bg-bone after:bg-opacity-10">
 					<div className="p-1 border-2 border-bone rounded-full bg-[#1a191d]"></div>
 				</div>
 				<div>

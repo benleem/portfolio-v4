@@ -6,10 +6,10 @@ import ErrorPage from "./routes/ErrorPage";
 import Home from "./routes/Home";
 import Work from "./routes/Work";
 import About from "./routes/About";
-import Contact from "./routes/Contact";
-import "./index.css";
 import WorkId from "./routes/WorkId";
 import Resume from "./routes/Resume";
+
+import "./index.css";
 
 const router = createBrowserRouter([
 	{
@@ -36,10 +36,6 @@ const router = createBrowserRouter([
 			{
 				path: "resume",
 				element: <Resume />,
-			},
-			{
-				path: "contact",
-				element: <Contact />,
 			},
 		],
 	},

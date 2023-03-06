@@ -5,7 +5,7 @@ const Intro = () => {
 			style={{ animationDirection: "reverse" }}
 		>
 			<p className="text-xl">Ben Marshall</p>
-			<h1 className="text-5xl font-oswald font-semibold">
+			<h1 className="text-5xl text-center font-oswald font-semibold">
 				Frontend Web Developer
 			</h1>
 		</main>

@@ -33,6 +33,17 @@
 }
 
 @layer utilities {
+	.tooltip-after {
+		content: "";
+		position: absolute;
+		top: 100%;
+		left: 50%;
+		margin-left: -5px;
+		border-width: 5px;
+		border-style: solid;
+		border-color: #faf9f6 transparent transparent transparent;
+	}
+
 	.header-slide-start {
 		transform: translateY(-200%);
 		-webkit-transform: translateY(-200%);

@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Anchor from "../components/Anchor";
+import CopyContents from "../components/CopyContents";
 import ImbeddedButton from "../components/ImbeddedButton";
 import SocialLinks from "../components/SocialLinks";
 import TitleText from "../components/TitleText";
@@ -17,13 +18,17 @@ function Home() {
 				I'm passionate about creating seamless, user-friendly interfaces that
 				bring ideas to life. I specialize in crafting responsive, accessible,
 				and scalable web applications using cutting-edge technologies, including
-				HTML, CSS, JavaScript, TypesScript, React, and NextJs.
+				HTML, CSS, JavaScript, TypeScript, React, and NextJs.
 			</p>
 			<p className="text-gray-300">
 				View my <ImbeddedButton text="Work" link="/work" /> ,{" "}
 				<ImbeddedButton text="Resume" link="/resume" /> ,{" "}
-				<ImbeddedButton text="Contact Me" link="/contact" /> , or send me an
-				email at benmarshall.dev@gmail.com.
+				<ImbeddedButton
+					text="Contact Me"
+					link="mailto:benmarshall.dev@gmail.com"
+				/>{" "}
+				, or send me an email at{" "}
+				<CopyContents text="benmarshall.dev@gmail.com" />.
 			</p>
 			<Anchor
 				type="internal"

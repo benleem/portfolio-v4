@@ -2,7 +2,11 @@ import { Link, useLocation } from "react-router-dom";
 
 function Header() {
 	const location = useLocation();
-	const navLinks = ["about", "work", "contact"];
+	const navLinks = [
+		{ text: "about", link: "/about" },
+		{ text: "work", link: "/work" },
+		{ text: "contact", link: "mailto:benmarshall.dev@gmail.com" },
+	];
 
 	return (
 		<header className="sticky top-0 left-0 px-4 w-full bg-[#1a191d] bg-opacity-60 backdrop-blur-md z-50">
@@ -31,7 +35,7 @@ function Header() {
 						<li
 							key={index}
 							className={`${
-								location.pathname.includes(link)
+								location.pathname.includes(link.text)
 									? "text-emerald-400"
 									: "text-bone"
 							} hover:text-emerald-400 header-slide-start animate-header-slide transition-colors ease-in-out duration-400`}
@@ -42,7 +46,7 @@ function Header() {
 								MozAnimationDelay: `${index * 0.1}s`,
 							}}
 						>
-							<Link to={`/${link}`}>{link}</Link>
+							<Link to={link.link}>{link.text}</Link>
 						</li>
 					))}
 				</ul>
