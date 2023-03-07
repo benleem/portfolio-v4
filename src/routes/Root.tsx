@@ -14,6 +14,10 @@ const Root = () => {
 		}, 1000);
 	}, []);
 
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, [location]);
+
 	if (introActive) {
 		return <Intro />;
 	}

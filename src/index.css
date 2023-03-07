@@ -17,7 +17,6 @@
 	#root {
 		height: 100%;
 		width: 100%;
-		scroll-behavior: smooth;
 		background-color: #1a191d;
 	}
 

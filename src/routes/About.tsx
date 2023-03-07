@@ -31,9 +31,9 @@ const experiences = [
 	},
 	{
 		company: "Various Projects",
-		role: "Developer",
-		employmentType: "Project",
-		timeSpan: "Forever - Always",
+		role: "👷‍♂️ Developer",
+		employmentType: "Projects",
+		timeSpan: "Always - Forever",
 		details: [
 			"I am always taking on new projects to hone my skills. Check out my work page to view them!",
 		],
@@ -103,7 +103,7 @@ const About = () => {
 									<span className="text-emerald-400">{experience.company}</span>
 								</h3>
 								<p className="pb-2 text-sm text-gray-300">
-									{experience.timeSpan}
+									{experience.timeSpan} ({experience.employmentType})
 								</p>
 								<ul className="list-inside list-disc">
 									{experience.details.map((detail) => (
