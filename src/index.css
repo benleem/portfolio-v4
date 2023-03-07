@@ -33,6 +33,11 @@
 }
 
 @layer utilities {
+	.text-mixed {
+		writing-mode: vertical-rl;
+		text-orientation: mixed;
+	}
+
 	.tooltip-after {
 		content: "";
 		position: absolute;
@@ -52,17 +57,4 @@
 		-o-transform: translateY(-200%);
 		animation-fill-mode: forwards;
 	}
-
-	/* .animation-delay-100 {
-		animation-delay: 0.1s;
-		-webkit-animation-delay: 0.1s;
-		-o-animation-delay: 0.1s;
-		-moz-animation-delay: 0.1s;
-	}
-	.animation-delay-200 {
-		animation-delay: 0.2s;
-		-webkit-animation-delay: 0.2s;
-		-o-animation-delay: 0.2s;
-		-moz-animation-delay: 0.2s;
-	} */
 }

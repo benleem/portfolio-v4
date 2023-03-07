@@ -1,11 +1,15 @@
 import { Link, useLocation } from "react-router-dom";
+import Anchor from "./Anchor";
 
 function Header() {
 	const location = useLocation();
 	const navLinks = [
 		{ text: "about", link: "/about" },
 		{ text: "work", link: "/work" },
-		{ text: "contact", link: "mailto:benmarshall.dev@gmail.com" },
+		{
+			text: "contact",
+			link: "mailto:benmarshall.dev@gmail.com?&&subject=Let's Talk 🗣",
+		},
 	];
 
 	return (

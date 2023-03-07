@@ -1,24 +1,20 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 type CopyContentsProps = {
 	text: string;
 };
 
 const CopyContents = ({ text }: CopyContentsProps) => {
-	const [showAlert, setShowAlert] = useState(false);
+	const [showAlert, setShowAlert] = useState<boolean>(false);
 
 	const handleClick = () => {
 		navigator.clipboard.writeText(text); // copy to clipboard
 		setShowAlert(true);
+		setTimeout(() => {
+			setShowAlert(false);
+		}, 1500);
 	};
-
-	useEffect(() => {
-		if (showAlert) {
-			setTimeout(() => {
-				setShowAlert(false);
-			}, 1500);
-		}
-	}, [showAlert]);
 
 	return (
 		<button

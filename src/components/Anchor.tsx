@@ -8,29 +8,16 @@ type LinkProps = {
 };
 
 const Anchor = ({ type, link, children, className }: LinkProps) => {
-	if (type === "internal") {
-		return (
-			<Link
-				className={`text-bone hover:underline underline-offset-2 decoration-emerald-400 ${
-					className ? className : ""
-				}`}
-				to={link}
-			>
-				{children}
-			</Link>
-		);
-	}
-
 	return (
-		<a
-			href={link}
-			target="_blank"
+		<Link
+			to={link}
+			target={type === "external" ? "_blank" : "_self"}
 			className={`text-bone hover:underline underline-offset-2 decoration-emerald-400 ${
 				className ? className : ""
 			}`}
 		>
 			{children}
-		</a>
+		</Link>
 	);
 };
 

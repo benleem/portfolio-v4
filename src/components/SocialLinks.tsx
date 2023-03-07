@@ -14,7 +14,10 @@ const SocialLinks = ({}: SocialLinksProps) => {
 			>
 				🔗 LinkedIn
 			</Anchor>
-			<Anchor type="external" link="mailto:benmarshall.dev@gmail.com">
+			<Anchor
+				type="internal"
+				link="mailto:benmarshall.dev@gmail.com?&&subject=Let's Talk 🗣"
+			>
 				✉️ Email
 			</Anchor>
 		</ul>

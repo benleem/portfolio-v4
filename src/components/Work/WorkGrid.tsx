@@ -78,13 +78,12 @@ const WorkGrid = () => {
 									{work.tags.map((tag) => (
 										<span
 											key={tag}
-											className="min-w-max p-2 py-1 bg-slate-500 rounded-full text-sm"
+											className="min-w-max px-2 py-1 bg-slate-600 rounded-full text-sm"
 										>
 											{tag}
 										</span>
 									))}
 								</div>
-								{/* <Link to={`/work/${work.id}`}>More...</Link> */}
 								<div className="pt-2 flex gap-2">
 									{work.live ? (
 										<Anchor
