@@ -3,6 +3,12 @@
         {
             "id": "love-together",
 			"type": "job",
+			"jobInfo": {
+				"company":"Love Together",
+				"role":"🎨 Front End Developer",
+				"employmentType": "Contract",
+				"timeSpan": "November 2022 - Present"
+			},
 			"title": "Love Together",
 			"description": "Love Together is a relationship coaching app. Answer survey questions, match with a partner, and discuss!",
 			"tags": ["TypeScript", "NextJs", "Tailwind", "React Query", "React Context"],

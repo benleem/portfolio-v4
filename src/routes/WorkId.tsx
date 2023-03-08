@@ -17,6 +17,20 @@ const WorkId = () => {
 	return (
 		<section className="max-w-4xl mx-auto h-full flex flex-col animate-opacity-fade">
 			<TitleText>{currentWork.title}</TitleText>
+			{currentWork.jobInfo ? (
+				<>
+					<p className="pt-2 text-lg font-medium">
+						{currentWork.jobInfo.role} @{" "}
+						<span className="text-emerald-400">
+							{currentWork.jobInfo.company}
+						</span>
+					</p>
+					<p className="text-sm text-gray-300">
+						{currentWork.jobInfo.timeSpan} ({currentWork.jobInfo.employmentType}
+						)
+					</p>
+				</>
+			) : null}
 			<p className="py-8 text-gray-400">{currentWork.description}</p>
 			<Image
 				src={currentWork.src}
