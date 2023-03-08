@@ -18,14 +18,13 @@
 			"placeholder":"https://res.cloudinary.com/ben-dev/image/upload/e_blur:1000,q_1,f_auto/v1677528086/portfolio/love-together_zkbqt3.png",
 			"redirect": "/work/love-together",
 			"live":"https://www.love-together.com/"
-
 		},
 		{
             "id": "chirp",
 			"type": "project",
 			"title": "Chirp",
 			"description": "Chirp is a social media platform. Keep up with people from around the globe, or just post funny memes.",
-			"about":["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu gravida leo. Duis laoreet lectus aliquet dictum lobortis. Morbi feugiat eget massa nec fermentum. Integer id lectus at ligula auctor elementum eu ut ante. Morbi vel gravida enim. Vestibulum condimentum pellentesque odio, id tincidunt nulla molestie ac. Duis et lectus hendrerit, dictum enim eu, aliquet nisl. Mauris ut erat non metus lacinia cursus in et lorem. Quisque convallis lacus sit amet ex finibus, quis lobortis tortor cursus. Proin commodo ac nunc at mattis. Cras et risus bibendum velit ultricies vehicula. Quisque molestie ac libero nec condimentum.", "Praesent ultricies urna sed enim viverra, quis egestas urna tempor. Sed commodo felis vel lectus porta, nec aliquet ex scelerisque. Quisque sed elit iaculis, lacinia ante eu, pretium elit. Donec urna ex, ultrices non efficitur ut, tincidunt quis tortor. Fusce vulputate dui sit amet elit iaculis condimentum. Nunc ultrices faucibus magna vitae efficitur. Ut varius enim vitae consequat volutpat. Curabitur ullamcorper, nisi consequat aliquet malesuada, eros lectus vulputate justo, eget congue orci nulla vel tortor."],
+			"about":["The purpose of this social media project was to learn a new framework, NextJs. Another reason was to expose myself to a big project so I could build common things you find on a lot of websites(auth, infinite scrolling, CRUD capability, etc). What really made me spark an interest in making a social media project, was that I originally wanted a place to share recipes and beers with friends. I worked on it for a while, scrapped it, and turned it into Chirp instead!", "I have learned a lot from this project and have grown as a developer. I've also had plenty of road bumps along the way. Although I've had a love-hate relationship with this project I still want to add more. If time permits, I would love to integrate a proper search engine and also a favorites page!"],
 			"tags": ["JavaScript","NextJs","CSS Modules", "React Context" ],
 			"src":"https://res.cloudinary.com/ben-dev/image/upload/w_500,c_fill/v1677528976/portfolio/chirp_nlrbd5.webp 500w, https://res.cloudinary.com/ben-dev/image/upload/w_1000,c_fill/v1677528976/portfolio/chirp_nlrbd5.webp 1000w",
 			"fallback":"https://res.cloudinary.com/ben-dev/image/upload/w_500,c_fill/v1677528086/portfolio/chirp_nlrbd5.png 500w, https://res.cloudinary.com/ben-dev/image/upload/w_1000,c_fill/v1677528086/portfolio/chirp_nlrbd5.png 1000w",
@@ -39,7 +38,7 @@
 			"type": "project",
 			"title": "Goggle Earth",
 			"description": "Goggle Earth is an application that can be used to satisfy your curiosity about our great blue planet! Place a pin, and info related to that place will show up in the info tab.",
-			"about":["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu gravida leo. Duis laoreet lectus aliquet dictum lobortis. Morbi feugiat eget massa nec fermentum. Integer id lectus at ligula auctor elementum eu ut ante. Morbi vel gravida enim. Vestibulum condimentum pellentesque odio, id tincidunt nulla molestie ac. Duis et lectus hendrerit, dictum enim eu, aliquet nisl. Mauris ut erat non metus lacinia cursus in et lorem. Quisque convallis lacus sit amet ex finibus, quis lobortis tortor cursus. Proin commodo ac nunc at mattis. Cras et risus bibendum velit ultricies vehicula. Quisque molestie ac libero nec condimentum.", "Praesent ultricies urna sed enim viverra, quis egestas urna tempor. Sed commodo felis vel lectus porta, nec aliquet ex scelerisque. Quisque sed elit iaculis, lacinia ante eu, pretium elit. Donec urna ex, ultrices non efficitur ut, tincidunt quis tortor. Fusce vulputate dui sit amet elit iaculis condimentum. Nunc ultrices faucibus magna vitae efficitur. Ut varius enim vitae consequat volutpat. Curabitur ullamcorper, nisi consequat aliquet malesuada, eros lectus vulputate justo, eget congue orci nulla vel tortor."],
+			"about":["The purpose of building Goggle Earth was to refine my front-end skills as well as to learn libraries such as ThreeJs and Framer Motion. Although it was originally supposed to be a play project for testing ThreeJs features, it quickly became much more. I got sucked into all the possibilities of ThreeJs and decided to make it an app with functionality reminiscent of Google Earth.", "Although this easily became my favorite project to date, I did come across challenges aplenty. For example, I had no experience with 3D development and had to scour docs, videos, and other projects to get a proper footing to start development."],
 			"src":"https://res.cloudinary.com/ben-dev/image/upload/w_500,c_fill/v1677532380/earth_orgnqh.webp 500w, https://res.cloudinary.com/ben-dev/image/upload/w_1000,c_fill/v1677528976/portfolio/earth_orgnqh.webp 1000w",
 			"fallback":"https://res.cloudinary.com/ben-dev/image/upload/w_500,c_fill/v1677528086/portfolio/earth_orgnqh.png 500w, https://res.cloudinary.com/ben-dev/image/upload/w_1000,c_fill/v1677528086/portfolio/earth_orgnqh.png 1000w",
 			"placeholder":"https://res.cloudinary.com/ben-dev/image/upload/e_blur:1000,q_1,f_auto/v1677528086/portfolio/earth_orgnqh.png",
@@ -49,25 +48,11 @@
 			"code":"https://github.com/benleem/threejs-test"
 		},
 		{
-            "id": "crypto-snapshot",
-			"type": "project",
-			"title": "Crypto Snapshot",
-			"description": "Crypto Snapshot is an application where you can keep up with your favorite cryptocurrencies.",
-			"about":["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu gravida leo. Duis laoreet lectus aliquet dictum lobortis. Morbi feugiat eget massa nec fermentum. Integer id lectus at ligula auctor elementum eu ut ante. Morbi vel gravida enim. Vestibulum condimentum pellentesque odio, id tincidunt nulla molestie ac. Duis et lectus hendrerit, dictum enim eu, aliquet nisl. Mauris ut erat non metus lacinia cursus in et lorem. Quisque convallis lacus sit amet ex finibus, quis lobortis tortor cursus. Proin commodo ac nunc at mattis. Cras et risus bibendum velit ultricies vehicula. Quisque molestie ac libero nec condimentum.", "Praesent ultricies urna sed enim viverra, quis egestas urna tempor. Sed commodo felis vel lectus porta, nec aliquet ex scelerisque. Quisque sed elit iaculis, lacinia ante eu, pretium elit. Donec urna ex, ultrices non efficitur ut, tincidunt quis tortor. Fusce vulputate dui sit amet elit iaculis condimentum. Nunc ultrices faucibus magna vitae efficitur. Ut varius enim vitae consequat volutpat. Curabitur ullamcorper, nisi consequat aliquet malesuada, eros lectus vulputate justo, eget congue orci nulla vel tortor."],
-			"src":"https://res.cloudinary.com/ben-dev/image/upload/w_500,c_fill/v1677528976/portfolio/crypto_e68rjy.webp 500w, https://res.cloudinary.com/ben-dev/image/upload/w_1000,c_fill/v1677528976/portfolio/crypto_e68rjy.webp 1000w",
-			"fallback":"https://res.cloudinary.com/ben-dev/image/upload/w_500,c_fill/v1677528086/portfolio/crypto_e68rjy.png 500w, https://res.cloudinary.com/ben-dev/image/upload/w_1000,c_fill/v1677528086/portfolio/crypto_e68rjy.png 1000w",
-			"placeholder":"https://res.cloudinary.com/ben-dev/image/upload/e_blur:1000,q_1,f_auto/v1677528086/portfolio/crypto_e68rjy.png",
-			"tags": ["HTML", "CSS", "JavaScript"],
-			"redirect": "/work/crypto-snapshot",
-			"live":"https://cryptosnapshot.netlify.app/",
-			"code":"https://github.com/benleem/crypto_snapshot"
-		},
-		{
             "id": "landing-page",
 			"type": "project",
 			"title": "Landing Page",
 			"description": "A landing page I received from a spotify newsletter campaign remade in HTML, CSS, and JavaScript",
-			"about":["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu gravida leo. Duis laoreet lectus aliquet dictum lobortis. Morbi feugiat eget massa nec fermentum. Integer id lectus at ligula auctor elementum eu ut ante. Morbi vel gravida enim. Vestibulum condimentum pellentesque odio, id tincidunt nulla molestie ac. Duis et lectus hendrerit, dictum enim eu, aliquet nisl. Mauris ut erat non metus lacinia cursus in et lorem. Quisque convallis lacus sit amet ex finibus, quis lobortis tortor cursus. Proin commodo ac nunc at mattis. Cras et risus bibendum velit ultricies vehicula. Quisque molestie ac libero nec condimentum.", "Praesent ultricies urna sed enim viverra, quis egestas urna tempor. Sed commodo felis vel lectus porta, nec aliquet ex scelerisque. Quisque sed elit iaculis, lacinia ante eu, pretium elit. Donec urna ex, ultrices non efficitur ut, tincidunt quis tortor. Fusce vulputate dui sit amet elit iaculis condimentum. Nunc ultrices faucibus magna vitae efficitur. Ut varius enim vitae consequat volutpat. Curabitur ullamcorper, nisi consequat aliquet malesuada, eros lectus vulputate justo, eget congue orci nulla vel tortor."],
+			"about":["This project is just a simple landing page to practice my design to code skills."],
 			"src":"https://res.cloudinary.com/ben-dev/image/upload/w_500,c_fill/v1677528976/portfolio/landing_s9zj3p.webp 500w, https://res.cloudinary.com/ben-dev/image/upload/w_1000,c_fill/v1677528976/portfolio/landing_s9zj3p.webp 1000w",
 			"fallback":"https://res.cloudinary.com/ben-dev/image/upload/w_500,c_fill/v1677528086/portfolio/landing_s9zj3p.png 500w, https://res.cloudinary.com/ben-dev/image/upload/w_1000,c_fill/v1677528086/portfolio/landing_s9zj3p.png 1000w",
 			"placeholder":"https://res.cloudinary.com/ben-dev/image/upload/e_blur:1000,q_1,f_auto/v1677528086/portfolio/landing_s9zj3p.png",
