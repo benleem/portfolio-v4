@@ -37,7 +37,7 @@ function Header() {
 				<ul className="flex items-center gap-2">
 					{navLinks.map((link, index) => (
 						<li
-							key={index}
+							key={link.text + index}
 							className={`${
 								location.pathname.includes(link.text)
 									? "text-emerald-400"

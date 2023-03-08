@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Anchor from "../components/Anchor";
+import PillTag from "../components/PillTag";
 import SocialLinks from "../components/SocialLinks";
 import TitleText from "../components/TitleText";
 
@@ -35,7 +36,7 @@ const experiences = [
 		employmentType: "Projects",
 		timeSpan: "Always - Forever",
 		details: [
-			"I am always taking on new projects to hone my skills. Check out my work page to view them!",
+			"I am always taking on new projects to hone my skills. Check out my work page to view some of them!",
 		],
 	},
 ];
@@ -70,9 +71,9 @@ const About = () => {
 						</Anchor>
 					</div>
 					<ul className="list-none flex gap-4 flex-wrap">
-						{skills.map((skill) => (
-							<li className="px-2 py-1 text-bone bg-slate-600 rounded-full">
-								{skill}
+						{skills.map((skill, index) => (
+							<li key={skill + index}>
+								<PillTag text={skill} />
 							</li>
 						))}
 					</ul>
@@ -96,8 +97,8 @@ const About = () => {
 						</Anchor>
 					</div>
 					<div className="flex flex-col gap-4">
-						{experiences.map((experience) => (
-							<div>
+						{experiences.map((experience, index) => (
+							<div key={experience.company + index}>
 								<h3 className="text-lg font-medium">
 									{experience.role} @{" "}
 									<span className="text-emerald-400">{experience.company}</span>
@@ -106,8 +107,13 @@ const About = () => {
 									{experience.timeSpan} ({experience.employmentType})
 								</p>
 								<ul className="list-inside list-disc">
-									{experience.details.map((detail) => (
-										<li className="text-gray-400">{detail}</li>
+									{experience.details.map((detail, index) => (
+										<li
+											key={experience.company + "-details" + index}
+											className="text-gray-400"
+										>
+											{detail}
+										</li>
 									))}
 								</ul>
 							</div>

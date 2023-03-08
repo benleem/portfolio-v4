@@ -31,6 +31,8 @@ const Root = () => {
 			<h1 className="fixed bottom-0 right-0 z-0 px-4 py-8 w-min h-min text-9xl leading-9xl sm:text-[15rem] sm:leading-[15rem] text-mixed font-oswald font-bold opacity-[1.5%] tracking-wider capitalize rotate-180">
 				{location.pathname === "/"
 					? "home"
+					: location.pathname.includes("work")
+					? "work"
 					: location.pathname.replace("/", "")}
 			</h1>
 			{/* <Footer /> */}

@@ -1,24 +1,12 @@
 import { useEffect, useState } from "react";
 import WorkFilterButton from "./WorkFilterButton";
+import { Work } from "../../models/works";
 
 import * as worksJson from "../../assets/works.json";
 import { Link } from "react-router-dom";
 import Anchor from "../Anchor";
 import Image from "../Image";
-
-type Work = {
-	id: string;
-	type: "job" | "project";
-	title: string;
-	description: string;
-	tags: string[];
-	src: string;
-	fallback: string;
-	redirect: string;
-	placeholder: string;
-	live?: string;
-	code?: string;
-};
+import PillTag from "../PillTag";
 
 const WorkGrid = () => {
 	const worksArray: Work[] = worksJson.worksArray as Work[];
@@ -76,12 +64,7 @@ const WorkGrid = () => {
 								<p className="font-light py-2">{work.description}</p>
 								<div className="flex gap-2 flex-wrap">
 									{work.tags.map((tag) => (
-										<span
-											key={tag}
-											className="min-w-max px-2 py-1 bg-slate-600 rounded-full text-sm"
-										>
-											{tag}
-										</span>
+										<PillTag key={tag} text={tag} className="text-sm" />
 									))}
 								</div>
 								<div className="pt-2 flex gap-2">
