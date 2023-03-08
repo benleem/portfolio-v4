@@ -41,7 +41,13 @@ const WorkId = () => {
 			/>
 			<div className="py-8">
 				<h2 className="text-lg font-oswald font-medium">About</h2>
-				<p className="text-gray-400">About</p>
+				<div className="flex flex-col gap-2">
+					{currentWork.about.map((aboutParagraph, index) => (
+						<p key={index} className="text-gray-400">
+							{aboutParagraph}
+						</p>
+					))}
+				</div>
 			</div>
 			<div className="pb-8">
 				<h2 className="pb-2 text-lg font-oswald font-medium">Technologies</h2>

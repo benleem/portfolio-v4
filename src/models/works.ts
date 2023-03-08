@@ -9,6 +9,7 @@ export type Work = {
 	};
 	title: string;
 	description: string;
+	about: string[];
 	tags: string[];
 	src: string;
 	fallback: string;
