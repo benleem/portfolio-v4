@@ -6,11 +6,20 @@ const Resume = () => {
 		<section className="max-w-4xl mx-auto grid animate-opacity-fade">
 			<TitleText>Resume</TitleText>
 			<h2 className="py-8">
-				<Anchor type="external" link="/Ben-Marshall-Resume.pdf">
+				<Anchor
+					type="external"
+					link="/Ben-Marshall-Resume.pdf"
+					className="underline"
+				>
 					view
 				</Anchor>{" "}
 				or{" "}
-				<Anchor type="external" link="/Ben-Marshall-Resume.pdf" download>
+				<Anchor
+					type="external"
+					link="/Ben-Marshall-Resume.pdf"
+					download
+					className="underline"
+				>
 					download
 				</Anchor>{" "}
 				resume
