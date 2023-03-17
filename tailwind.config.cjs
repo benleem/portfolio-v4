@@ -14,10 +14,10 @@ module.exports = {
 				"horizontal-bounce": {
 					"0%": {
 						transform: "translateX(0%)",
-						"-webkit-transform": translatex(0),
-						"-moz-transform": translatex(0),
-						"-o-transform": translatex(0),
-						"-ms-transform": translatex(0),
+						"-webkit-transform": "translateX(0%)",
+						"-moz-transform": "translateX(0%)",
+						"-o-transform": "translateX(0%)",
+						"-ms-transform": "translateX(0%)",
 					},
 					"50%": {
 						transform: "translateX(200%)",
@@ -28,10 +28,10 @@ module.exports = {
 					},
 					"100%": {
 						transform: "translateX(0%)",
-						"-webkit-transform": translatex(0),
-						"-moz-transform": translatex(0),
-						"-o-transform": translatex(0),
-						"-ms-transform": translatex(0),
+						"-webkit-transform": "translateX(0%)",
+						"-moz-transform": "translateX(0%)",
+						"-o-transform": "translateX(0%)",
+						"-ms-transform": "translateX(0%)",
 					},
 				},
 				"works-slide": {
