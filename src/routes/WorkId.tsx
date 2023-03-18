@@ -2,7 +2,7 @@ import { useLocation } from "react-router-dom";
 import TitleText from "../components/TitleText";
 import { Work } from "../models/works";
 
-import * as worksJson from "../assets/works.json";
+import worksJson from "../assets/works.json";
 import PillTag from "../components/PillTag";
 import Image from "../components/Image";
 import Anchor from "../components/Anchor";

@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import WorkFilterButton from "./WorkFilterButton";
 import { Work } from "../../models/works";
 
-import * as worksJson from "../../assets/works.json";
+import worksJson from "../../assets/works.json";
 import { Link } from "react-router-dom";
 import Anchor from "../Anchor";
 import Image from "../Image";
@@ -42,7 +42,7 @@ const WorkGrid = () => {
 			</div>
 			<div
 				key={filter}
-				className="grid grid-cols-1 gap-4 sm:grid-cols-2 animate-works-slide"
+				className={`grid grid-cols-1 gap-4 sm:grid-cols-2 animate-works-slide`}
 			>
 				{works.map((work: Work) => (
 					<div
