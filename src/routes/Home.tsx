@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import Anchor from "../components/Anchor";
 import CopyContents from "../components/CopyContents";
 import ImbeddedButton from "../components/ImbeddedButton";

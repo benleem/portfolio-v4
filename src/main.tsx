@@ -10,6 +10,7 @@ import WorkId from "./routes/WorkId";
 import Resume from "./routes/Resume";
 
 import "./index.css";
+import { WorksProvider } from "./context/WorksContext";
 
 const router = createBrowserRouter([
 	{
@@ -43,6 +44,8 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
 	<React.StrictMode>
-		<RouterProvider router={router} />
+		<WorksProvider>
+			<RouterProvider router={router} />
+		</WorksProvider>
 	</React.StrictMode>
 );

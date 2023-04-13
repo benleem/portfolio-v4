@@ -2,17 +2,18 @@ import { useLocation } from "react-router-dom";
 import TitleText from "../components/TitleText";
 import { Work } from "../models/works";
 
-import worksJson from "../assets/works.json";
 import PillTag from "../components/PillTag";
 import Image from "../components/Image";
 import Anchor from "../components/Anchor";
+import { useWorksContext } from "../context/WorksContext";
+import { useMemo, useState } from "react";
 
 const WorkId = () => {
 	const location = useLocation();
-	const worksArray = worksJson.worksArray.filter(
+	const { works } = useWorksContext();
+	const currentWork = works.filter(
 		(work) => work.id === location.pathname.replace("/work/", "")
-	);
-	const currentWork: Work = worksArray[0] as Work;
+	)[0];
 
 	return (
 		<section className="max-w-4xl mx-auto h-full flex flex-col animate-opacity-fade">

@@ -2,22 +2,22 @@ import { useEffect, useState } from "react";
 import WorkFilterButton from "./WorkFilterButton";
 import { Work } from "../../models/works";
 
-import worksJson from "../../assets/works.json";
 import { Link } from "react-router-dom";
 import Anchor from "../Anchor";
 import Image from "../Image";
 import PillTag from "../PillTag";
+import { useWorksContext } from "../../context/WorksContext";
 
 const WorkGrid = () => {
-	const worksArray: Work[] = worksJson.worksArray as Work[];
-	const [works, setWorks] = useState<Work[]>(worksArray);
+	const { works } = useWorksContext();
+	const [worksArray, setWorks] = useState<Work[]>(works);
 	const [filter, setFilter] = useState<string>("all");
 
 	useEffect(() => {
 		if (filter !== "all") {
-			setWorks(worksArray.filter((work) => work.type === filter));
+			setWorks(works.filter((work) => work.type === filter));
 		} else {
-			setWorks(worksArray);
+			setWorks(works);
 		}
 	}, [filter]);
 
@@ -44,7 +44,7 @@ const WorkGrid = () => {
 				key={filter}
 				className={`grid grid-cols-1 gap-4 sm:grid-cols-2 animate-works-slide`}
 			>
-				{works.map((work: Work) => (
+				{worksArray.map((work: Work) => (
 					<div
 						key={work.id}
 						className="group relative h-96 rounded-lg overflow-hidden"
