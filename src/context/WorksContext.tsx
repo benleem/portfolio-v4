@@ -24,7 +24,7 @@ export const WorksProvider: React.FC<WorksProviderProps> = ({ children }) => {
 				company: "Love Together",
 				role: "🎨 Front End Developer",
 				employmentType: "Contract",
-				timeSpan: "November 2022 - Present",
+				timeSpan: "November 2022 - March 2023",
 			},
 			title: "Love Together",
 			description:

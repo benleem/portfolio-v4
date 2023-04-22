@@ -20,7 +20,7 @@ const experiences = [
 		company: "Love Together",
 		role: "🎨 Front End Developer",
 		employmentType: "Contract",
-		timeSpan: "November 2022 - Present",
+		timeSpan: "November 2022 - March 2023",
 		details: [
 			"Created and maintained user interfaces (based on designs) for our web application, ensuring a consistent and user-friendly experience across all platforms.",
 			"Contributed to the development of the company's internal design system, creating reusable components to improve development efficiency and consistency across projects.",
